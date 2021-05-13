@@ -1,0 +1,28 @@
+{
+  "name": "cowin-api",
+  "description": "COWIN middle API",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "serve": "node dist/server.js",
+    "build": "tsc",
+    "watch-ts": "tsc -w",
+    "lint": "echo lint needs to be implemented",
+    "lint:fix": "echo lint needs to be implemented",
+    "server": "npm run start"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/errorhandler": "^1.5.0",
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.4",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.1"
+  }
+}
